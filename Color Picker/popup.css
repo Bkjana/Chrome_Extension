@@ -1,0 +1,46 @@
+body {
+    width: 150px;
+    height: 100px;
+    background: rgb(213, 219, 219);
+    font-family: sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#color {
+    margin-left: 15px;
+    /* margin-right: auto; */
+    display: flex;
+    margin-top: 10px;
+    gap: 5px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+
+button {
+    width: 90%;
+    background: yellowgreen;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#reset {
+    display: none;
+    text-align: center;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Save Coding Question",
+    "description": "Just Select A Question Or Code then press \"save as coding\" it save in a Text File",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "webNavigation"
+    ],
+    "background.service_worker": { "scripts": ["background.js"] },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icon.jpg",
+        "32": "icon.jpg",
+        "48": "icon.jpg"
+    }
+}
